@@ -4,7 +4,7 @@ class A
 
 a = new A()
 
-YouAreDaBomb(a, 'bar').before(->
+Before(a, 'bar', ->
   alert("foo")
 )
 

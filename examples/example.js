@@ -18,7 +18,7 @@
 
   a = new A();
 
-  YouAreDaBomb(a, 'bar').before(function() {
+  Before(a, 'bar', function() {
     return alert("foo");
   });
 
