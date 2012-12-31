@@ -12,7 +12,7 @@ _.defaults this,
           )()
         combinator
 
-      around: (pointcut_exprs..., advice) ->
+      around: (advice) ->
         for functionName in functionNames
           object[functionName] = (=>
             fn = object[functionName]
