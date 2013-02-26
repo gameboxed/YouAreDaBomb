@@ -65,7 +65,7 @@ _.defaults this,
                     advice(callback_args...)
                     result
                 else
-                arg
+                  arg
                 adviced_args.push new_arg
               fn.apply(object, adviced_args)
           )()
